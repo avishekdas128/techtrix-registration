@@ -15,8 +15,8 @@ let mailTransport = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'orangeinc1221@gmail.com',
-        pass: 'Orange1331'
+        user: 'mail',
+        pass: 'pass'
     }
 });
 
